@@ -1,0 +1,255 @@
+/*
+Theme Name: Tornillos Toreo 
+Template Theme URI: http://www.viewhostingmexico.com/ 
+Author: El equipo de Viewhosting México 
+Description: Plantilla desarrollada para la empresa Comercializadora y Distribuidora de Tornillos y Herramientas Toreo S.A. de C.V.". 
+Version: 1.0 
+*/
+
+@import url('bootstrap/css/bootstrap.min.css');
+@import url('bootstrap/css/carousel.css');
+
+#cabecera.navbar-default {
+    font-size: 12px;
+    background-color: rgba(59, 59, 59, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    height: auto;
+}
+
+#cabecera.navbar {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#menu_principal.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+    padding-top: -100px;
+}
+#menu_principal.navbar-default {
+    font-size: 12px;
+    background-color: rgba(59, 59, 59, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#menu_principal.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(59, 59, 59, 1);
+}
+#menu_principal.navbar-default .navbar-nav>li>a:hover,
+#menu_principal.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(102, 102, 102, 1);
+}
+#menu_principal.navbar-default .navbar-nav>.active>a,
+#menu_principal.navbar-default .navbar-nav>.active>a:hover,
+#menu_principal.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(59, 59, 59, 1);
+    background-color: rgba(102, 102, 102, 1);
+}
+#menu_principal.navbar-default .navbar-toggle {
+    border-color: #666666;
+}
+#menu_principal.navbar-default .navbar-toggle:hover,
+#menu_principal.navbar-default .navbar-toggle:focus {
+    background-color: #666666;
+}
+#menu_principal.navbar-default .navbar-toggle .icon-bar {
+    background-color: #666666;
+}
+#menu_principal.navbar-default .navbar-toggle:hover .icon-bar,
+#menu_principal.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #3b3b3b;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 930px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 0px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.fondotitulo {
+	border-width: 449.396px;
+	border-color: rgb(237, 12, 16);
+	border-style: solid;
+	background-image: url("archivos/imagen/fondotitulo.png");
+	background-repeat: repeat-x;
+	background-color: rgb(255, 75, 9);
+	position: absolute;
+	left: 0px;
+	top: 236px;
+	width: 0;
+	height: 0;
+	z-index:2;
+}
+.titulo {
+	font-size: 8px;
+	font-family: "Futura";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-decoration: none;
+	text-align: center;
+	-moz-transform: matrix( 3.38095238095238,0,0,3.38095238095238,0,0);
+	-webkit-transform: matrix( 3.38095238095238,0,0,3.38095238095238,0,0);
+	-ms-transform: matrix( 3.38095238095238,0,0,3.38095238095238,0,0);
+	position: absolute;
+	left: 113.56px;
+	top: 256.421px;
+	z-index:3;
+}
+.titulo, a {
+	color: rgb(255, 255, 255);
+}
+.titulo, a:link, a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+.imagen_thumb{
+	left: 0px;
+	top: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 284px;
+	overflow: hidden;
+	
+    float: left;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+.imagen_desc{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    background-image: url("archivos/imagen/delante.png");
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    padding: 5px 5px 5px 5px;
+    display: none;
+	width: 100%;
+	height: 284px;
+}
+.imagen_thumb img{
+    z-index: -1;
+}
+#espacio {
+	height: 20px;
+}
+.medio {
+    margin-bottom: 0;
+}
+#medio.fondo-conte {
+    font-size: 14px;
+    color: #FFFF;
+    background-color: #f09124;
+    border-width: 0px;
+    border-radius: 0px;
+}
+#pie.fondo-conte {
+    font-size: 12px;
+    background-color: #efb168;
+    border-width: 0px;
+    border-radius: 0px;
+    height: auto;
+}
+#pie {
+    margin-bottom: 0;
+}
+.footer_text{
+    font-size: 9px;
+	margin-bottom: 20px;
+}
